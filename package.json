@@ -1,9 +1,9 @@
 {
-  "name": "monochrome",
-  "displayName": "Monochrome",
-  "description": "Monochromatic theme collection, for those who seeks.",
-  "publisher": "anotherglitchinthematrix",
-  "version": "2.4.3",
+  "name": "monochromatic",
+  "displayName": "Monochromatic",
+  "description": "Monochromatic theme collection, based of monochrome by Ali Can YILDIZ.",
+  "publisher": "warbads",
+  "version": "0.0.1",
   "license": "MIT",
   "icon": "icon.png",
   "galleryBanner": {
@@ -11,15 +11,15 @@
     "theme": "dark"
   },
   "author": {
-    "name": "Ali Can YILDIZ",
-    "email": "anotherglitchinthematrix@gmail.com"
+    "name": "Warbands",
+    "email": "warbands@mac.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/anotherglitchinthematrix/monochrome.git"
+    "url": "https://github.com/warbands/monochromatic.git"
   },
   "bugs": {
-    "url": "https://github.com/anotherglitchinthematrix/monochrome/issues"
+    "url": "https://github.com/warbands/monochromatic/issues"
   },
   "engines": {
     "vscode": "^1.43.0"
@@ -34,49 +34,53 @@
     "monochrome",
     "minimal",
     "minimalist",
-    "subtle"
+    "subtle",
+    "monochromatic",
+    "duochromatic",
+    "duochrome",
+    "chrome"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Monochrome Dark",
+        "label": "Monochromatic Dark",
         "uiTheme": "vs-dark",
-        "path": "./theme/monochrome-dark.json"
+        "path": "./theme/monochromatic-dark.json"
       },
       {
-        "label": "Monochrome Light",
+        "label": "Monochromatic Light",
         "uiTheme": "vs",
-        "path": "./theme/monochrome-light.json"
+        "path": "./theme/monochromatic-light.json"
       },
       {
-        "label": "Monochrome Dark Subtle",
+        "label": "Monochromatic Dark Subtle",
         "uiTheme": "vs-dark",
-        "path": "./theme/monochrome-dark-subtle.json"
+        "path": "./theme/monochromatic-dark-subtle.json"
       },
       {
-        "label": "Monochrome Light Subtle",
+        "label": "Monochromatic Light Subtle",
         "uiTheme": "vs",
-        "path": "./theme/monochrome-light-subtle.json"
+        "path": "./theme/monochromatic-light-subtle.json"
       },
       {
-        "label": "Monochrome Dark Amplified",
+        "label": "Monochromatic Dark Amplified",
         "uiTheme": "vs-dark",
-        "path": "./theme/monochrome-dark-amplified.json"
+        "path": "./theme/monochromatic-dark-amplified.json"
       },
       {
-        "label": "Monochrome Light Amplified",
+        "label": "Monochromatic Light Amplified",
         "uiTheme": "vs",
-        "path": "./theme/monochrome-light-amplified.json"
+        "path": "./theme/monochromatic-light-amplified.json"
       },
       {
-        "label": "Monochrome Dark Cool Gray",
+        "label": "Monochromatic Dark Cool Gray",
         "uiTheme": "vs-dark",
-        "path": "./theme/monochrome-dark-cool-gray.json"
+        "path": "./theme/monochromatic-dark-cool-gray.json"
       },
       {
-        "label": "Monochrome Light Cool Gray",
+        "label": "Monochromatic Light Cool Gray",
         "uiTheme": "vs",
-        "path": "./theme/monochrome-light-cool-gray.json"
+        "path": "./theme/monochromatic-light-cool-gray.json"
       }
     ]
   },
