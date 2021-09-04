@@ -23,6 +23,19 @@ const themes = [
         "support.type.property-name": "#02f7a2"
       },
       tokenColors: [
+        // COMMENT
+        // CONSTANT
+        // ENTITY
+        // INVALID
+        // KEYWORD
+        // MARKUP
+        // META
+        // NONE
+        // PUNCTUATION
+        // STORAGE
+        // STRING
+        // SUPPORT
+        // VARIABLE
       ],
     }
   }),
