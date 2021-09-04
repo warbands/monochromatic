@@ -9,6 +9,19 @@ const themes = [
     //background: '#41fb63',
     foreground: '#EBEBEB',
     //foreground: '#EBEBEB',
+    //amplifier: 1.5,
+    override: {
+      color: {
+        "badge.background": 1,
+        "badge.foreground": 0,
+        
+        "button.background": "#FF0000",
+        "activityBar.inactiveForeground":"#02f7a2",
+        "support.type.property-name": "#02f7a2"
+      },
+      tokenColors: [
+      ],
+    }
   }),
   theme({
     name: 'monochromatic-light',
