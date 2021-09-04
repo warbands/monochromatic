@@ -12,7 +12,11 @@ const themes = [
     //background: '#41fb63',
     foreground: '#EBEBEB',
     //foreground: '#EBEBEB',
-    //amplifier: 1.5,
+    
+    // This only works on single numeric values for the time being
+    // We could convert all colors to their R G B elements and mult
+    //amplifier: 0.5, 
+    
     override: {
       color: {
         "badge.background": 1,

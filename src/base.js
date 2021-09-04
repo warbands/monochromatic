@@ -449,6 +449,12 @@ const base = () => {
 
       // META
       {
+        scope: '	meta.attribute',
+        settings: {
+          foreground: '#a079fc',
+        },
+      },
+      {
         scope: '	meta.brace.round',
         settings: {
           foreground: '#FF0000',
@@ -458,6 +464,18 @@ const base = () => {
         scope: 'meta.class',
         settings: {
           foreground: '#FF0000',
+        },
+      },
+      {
+        scope: 'meta.function-call.generic',
+        settings: {
+          foreground: '#a079fc',
+        },
+      },
+      {
+        scope: 'meta.function-call.arguments',
+        settings: {
+          foreground: '#41fb63',
         },
       },
       {
@@ -525,6 +543,24 @@ const base = () => {
         settings: {
           foreground: '#FF0000',
         }
+      },
+      {
+        scope: 'punctuation.definition.arguments',
+        settings: {
+          foreground: '#a079fc',
+        },
+      },
+      {
+        scope: 'punctuation.definition.arguments.begin',
+        settings: {
+          foreground: '#a079fc',
+        },
+      },
+      {
+        scope: 'punctuation.definition.arguments.end',
+        settings: {
+          foreground: '#a079fc',
+        },
       },
       {
         scope: 'punctuation.definition.array',
@@ -631,6 +667,12 @@ const base = () => {
         }
       },
       {
+        scope: 'punctuation.separator.arguments',
+        settings: {
+          foreground: '#a079fc',
+        }
+      },
+      {
         scope: 'punctuation.separator.array',
         settings: {
           foreground: '#a079fc',
@@ -638,6 +680,12 @@ const base = () => {
       },
       {
         scope: 'punctuation.separator.comma',
+        settings: {
+          foreground: '#a079fc',
+        }
+      },
+      {
+        scope: 'punctuation.separator.period',
         settings: {
           foreground: '#a079fc',
         }
@@ -672,7 +720,15 @@ const base = () => {
           foreground: '#FF0000',
         }
       },
-        
+      
+
+      // SOURCE
+      {
+        scope: 'source',
+        settings: {
+          foreground: '#FF0000',
+        },
+      },
       
       // STORAGE
       {
@@ -700,6 +756,12 @@ const base = () => {
         scope: 'string.other.link',
         settings: {
           foreground: '#a079fc',
+        }
+      },
+      {
+        scope: 'string.quoted.docstring.multi',
+        settings: {
+          foreground: '#02f7a2',
         }
       },
       {
@@ -802,6 +864,12 @@ const base = () => {
         scope: 'variable.parameter.function',
         settings: {
           foreground: '#a079fc',
+        },
+      },
+      {
+        scope: 'variable.parameter.function-call',
+        settings: {
+          foreground: '#FF0000',
         },
       },
       
