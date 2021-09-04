@@ -110,7 +110,7 @@ const base = () => {
       'peekViewResult.selectionBackground': 0,
       'peekViewResult.selectionForeground': 0.7490196078431373,
       'pickerGroup.foreground': 0.615686274509804,
-      "sash.hoverBorder": 0.058823529411764705,
+      'sash.hoverBorder': 0.058823529411764705,
       'scrollbar.shadow': 0,
       'scrollbarSlider.activeBackground': 0.058823529411764705,
       'scrollbarSlider.background': 0.058823529411764705,
@@ -208,7 +208,7 @@ const base = () => {
       {
         scope: 'comment',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         },
       },
 
@@ -217,31 +217,31 @@ const base = () => {
       {
         scope: 'constant',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'constant.character.escape',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'constant.numeric',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'constant.other.color',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'constant.other.symbol',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       
@@ -250,55 +250,55 @@ const base = () => {
       {
         scope: 'entity.name.class, entity.name.type.class',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'entity.name.function,',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         }
       },
       {
         scope: 'entity.name.section',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         }
       },
       {
         scope: 'entity.name.tag',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'entity.other.attribute-name',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'entity.other.attribute-name.class',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         }
       },
       {
         scope: 'entity.other.attribute-name.id',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'entity.other.attribute-name.pseudo-element',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         }
       },
       {
         scope: 'entity.other.inherited-class',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
 
@@ -307,25 +307,25 @@ const base = () => {
       {
         scope: 'invalid.illegal',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'invalid.broken',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'invalid.deprecated',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'invalid.unimplemented',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
 
@@ -334,49 +334,49 @@ const base = () => {
       {
         scope: 'keyword',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         },
       },
       {
         scope: 'keyword.operator',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         },
       },
       {
         scope: 'keyword.operator.assignment',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         },
       },
       {
         scope: 'keyword.other.unit',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         },
       },
       {
         scope: 'keyword.other.unit.px',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         },
       },
       {
         scope: 'keyword.other.important',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         },
       },
       {
         scope: 'keyword.operator.gradient',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         },
       },
       {
         scope: 'keyword.other.special-method',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         },
       },
 
@@ -385,58 +385,58 @@ const base = () => {
       {
         scope: 'markup.bold',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
           fontStyle: 'bold',
         },
       },
       {
         scope: 'markup.changed',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         },
       },
       {
         scope: 'markup.deleted',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         },
       },
       {
         scope: 'markup.heading',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
           fontStyle: '',
         },
       },
       {
         scope: 'markup.inserted',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         },
       },
       {
         scope: 'markup.italic',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
           fontStyle: 'italic',
         },
       },
       {
         scope: 'markup.list',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         },
       },
       {
         scope: 'markup.quote',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         },
       },
       {
         scope: 'markup.raw.inline',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         },
       },
 
@@ -445,37 +445,37 @@ const base = () => {
       {
         scope: 'meta.class',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'meta.link',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'meta.property-value',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'meta.require',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'meta.selector',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'meta.separator',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       
@@ -493,130 +493,130 @@ const base = () => {
       {
         scope: 'punctuation.definition.array',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         }
       },
       {
         scope: 'punctuation.definition.array.begin, punctuation.definition.array.end',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         }
       },
       {
         scope: 'punctuation.definition.bold',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
           fontStyle: 'bold',
         },
       },
       {
         scope: 'punctuation.definition.dictionary.begin, punctuation.definition.dictionary.end',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         }
       },
       {
         scope: 'punctuation.definition.comment',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         }
       },
       {
         scope: 'punctuation.definition.heading',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         }
       },
       {
         scope: 'punctuation.definition.italic',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
           fontStyle: 'italic',
         },
       },
       {
         scope: 'punctuation.definition.parameters',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         }
       },
       {
         scope: 'punctuation.definition.string',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         }
       },
       {
         scope: 'punctuation.definition.string.begin, punctuation.definition.string.end',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         }
       },
       {
         scope: 'punctuation.definition.string.end.markdown',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         },
       },
       {
         scope: 'punctuation.definition.variable',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'punctuation.section.function.begin.bracket.round, punctuation.section.function.end.bracket.round',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         }
       },
 
       {
         scope: 'punctuation.section.property-list.begin.bracket.curly, punctuation.section.property-list.end.bracket.curly',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         }
       },
       {
         scope: 'punctuation.separator.dictionary.pair',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         }
       },
       {
         scope: 'punctuation.separator.array',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         }
       },
       {
         scope: 'punctuation.separator.key-value',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         }
       },
       {
         scope: 'punctuation.definition.entity',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         }
       },
       {
         scope: 'punctuation.separator.dictionary.key-value',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         }
       },
       {
         scope: 'punctuation.section.embedded',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         }
       },
       {
         scope: 'punctuation.terminator.rule',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         }
       },
         
@@ -625,13 +625,13 @@ const base = () => {
       {
         scope: 'storage',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'storage.type.function',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
 
@@ -640,25 +640,25 @@ const base = () => {
       {
         scope: 'string',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         }
       },
       {
         scope: 'string.quoted.double',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         }
       },
       {
         scope: 'string.regexp',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         },
       },
       {
         scope: 'string.other.link',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         }
       },
       
@@ -667,49 +667,49 @@ const base = () => {
       {
         scope: 'support.class',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'support.constant.property-value',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'support.function',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         }
       },
       {
         scope: 'support.function.any-method',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         }
       },
       {
         scope: 'support.function.gradient',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'support.function.misc',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'support.function.url',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         },
       },
       {
         scope: 'support.type.property-name',
         settings: {
-          foreground: "#FF0000",
+          foreground: '#FF0000',
         }
       },
       
@@ -718,25 +718,25 @@ const base = () => {
       {
         scope: 'variable',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         },
       },
       {
         scope: 'variable.interpolation',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         },
       },
       {
         scope: 'variable.other.constant',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         },
       },
       {
         scope: 'variable.parameter.function',
         settings: {
-          foreground: "#a079fc",
+          foreground: '#a079fc',
         },
       },
       
