@@ -203,18 +203,104 @@ const base = () => {
       'window.activeBorder': 0.0392156862745098,
     },
     tokenColors: [
+
+      // PUNCTUATION  
+      {
+        scope: 'punctuation.definition.array.begin',
+        settings: {
+          foreground: "#FF0000"
+        }
+      },
+      {
+        scope: 'punctuation.definition.array.end',
+        settings: {
+          foreground: "#FF0000"
+        }
+      },
+      {
+        scope: 'punctuation.separator.array',
+        settings: {
+          foreground: "#a079fc"
+        }
+      },
+      {
+        scope: 'punctuation.definition.dictionary.begin',
+        settings: {
+          foreground: "#FF0000"
+        }
+      },
+      {
+        scope: 'punctuation.definition.dictionary.end',
+        settings: {
+          foreground: "#FF0000"
+        }
+      },
+      {
+        scope: 'punctuation.separator.dictionary.pair',
+        settings: {
+          foreground: "#FF0000"
+        }
+      },
+      {
+        scope: 'punctuation.separator.dictionary.key-value',
+        settings: {
+          foreground: "#a079fc"
+        }
+      },
+      {
+        scope: 'punctuation.definition.string.begin',
+        settings: {
+          foreground: "#a079fc"
+        }
+      },
+      {
+        scope: 'punctuation.definition.string.end',
+        settings: {
+          foreground: "#a079fc"
+        }
+      },
+      
+      // SUPPORT
+      {
+        scope: 'support.type.property-name',
+        settings: {
+          foreground: "#FF0000"
+        }
+      },
+
+
+      // STRING
+      {
+        scope: 'string.quoted.double',
+        settings: {
+          foreground: "#a079fc"
+        }
+      },
+
+      // CSS
+      //punctuation.definition.entity
+      //entity.other.attribute-name.class
+      //punctuation.section.property-list.begin.bracket.curly
+      //punctuation.section.property-list.end.bracket.curly
+      //support.constant.property-value
+
+      // COMMENT
+      {
+        scope: 'comment, punctuation.definition.comment',
+        settings: {
+          foreground: "#a079fc",
+        },
+      },
+
+      // Defaults
+      
       {
         scope: 'variable.parameter.function',
         settings: {
           foreground: 0.7019607843137254,
         },
       },
-      {
-        scope: 'comment, punctuation.definition.comment',
-        settings: {
-          foreground: 0.1803921568627451,
-        },
-      },
+      
       {
         scope:
           'punctuation.definition.string, punctuation.definition.variable, punctuation.definition.parameters, punctuation.definition.array',
