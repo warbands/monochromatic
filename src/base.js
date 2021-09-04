@@ -211,6 +211,12 @@ const base = () => {
           foreground: '#a079fc',
         },
       },
+      {
+        scope: 'comment.line.double-slash',
+        settings: {
+          foreground: '#a079fc',
+        },
+      },
 
 
       // CONSTANT
@@ -305,12 +311,6 @@ const base = () => {
 
       // INVALID
       {
-        scope: 'invalid.illegal',
-        settings: {
-          foreground: '#FF0000',
-        },
-      },
-      {
         scope: 'invalid.broken',
         settings: {
           foreground: '#FF0000',
@@ -318,6 +318,12 @@ const base = () => {
       },
       {
         scope: 'invalid.deprecated',
+        settings: {
+          foreground: '#FF0000',
+        },
+      },
+      {
+        scope: 'invalid.illegal',
         settings: {
           foreground: '#FF0000',
         },
@@ -350,13 +356,7 @@ const base = () => {
         },
       },
       {
-        scope: 'keyword.other.unit',
-        settings: {
-          foreground: '#a079fc',
-        },
-      },
-      {
-        scope: 'keyword.other.unit.px',
+        scope: 'keyword.operator.gradient',
         settings: {
           foreground: '#a079fc',
         },
@@ -368,13 +368,19 @@ const base = () => {
         },
       },
       {
-        scope: 'keyword.operator.gradient',
+        scope: 'keyword.other.special-method',
         settings: {
           foreground: '#a079fc',
         },
       },
       {
-        scope: 'keyword.other.special-method',
+        scope: 'keyword.other.unit',
+        settings: {
+          foreground: '#a079fc',
+        },
+      },
+      {
+        scope: 'keyword.other.unit.px',
         settings: {
           foreground: '#a079fc',
         },
@@ -443,6 +449,12 @@ const base = () => {
 
       // META
       {
+        scope: '	meta.brace.round',
+        settings: {
+          foreground: '#FF0000',
+        },
+      },
+      {
         scope: 'meta.class',
         settings: {
           foreground: '#FF0000',
@@ -450,6 +462,24 @@ const base = () => {
       },
       {
         scope: 'meta.link',
+        settings: {
+          foreground: '#FF0000',
+        },
+      },
+      {
+        scope: 'meta.object-literal',
+        settings: {
+          foreground: '#FF0000',
+        },
+      },
+      {
+        scope: 'meta.object-literal.key',
+        settings: {
+          foreground: '#FF0000',
+        },
+      },
+      {
+        scope: 'meta.object-literal.value',
         settings: {
           foreground: '#FF0000',
         },
@@ -491,6 +521,12 @@ const base = () => {
 
       // PUNCTUATION
       {
+        scope: 'punctuation.accessor',
+        settings: {
+          foreground: '#FF0000',
+        }
+      },
+      {
         scope: 'punctuation.definition.array',
         settings: {
           foreground: '#FF0000',
@@ -503,11 +539,23 @@ const base = () => {
         }
       },
       {
+        scope: 'punctuation.definition.block',
+        settings: {
+          foreground: '#FF0000',
+        }
+      },
+      {
         scope: 'punctuation.definition.bold',
         settings: {
           foreground: '#FF0000',
           fontStyle: 'bold',
         },
+      },
+      {
+        scope: 'punctuation.definition.comment',
+        settings: {
+          foreground: '#a079fc',
+        }
       },
       {
         scope: 'punctuation.definition.dictionary.begin, punctuation.definition.dictionary.end',
@@ -516,9 +564,9 @@ const base = () => {
         }
       },
       {
-        scope: 'punctuation.definition.comment',
+        scope: 'punctuation.definition.entity',
         settings: {
-          foreground: '#FF0000',
+          foreground: '#a079fc',
         }
       },
       {
@@ -553,7 +601,7 @@ const base = () => {
         }
       },
       {
-        scope: 'punctuation.definition.string.end.markdown',
+        scope: 'punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown',
         settings: {
           foreground: '#a079fc',
         },
@@ -565,20 +613,19 @@ const base = () => {
         },
       },
       {
+        scope: 'punctuation.section.embedded',
+        settings: {
+          foreground: '#a079fc',
+        }
+      },
+      {
         scope: 'punctuation.section.function.begin.bracket.round, punctuation.section.function.end.bracket.round',
         settings: {
           foreground: '#FF0000',
         }
       },
-
       {
         scope: 'punctuation.section.property-list.begin.bracket.curly, punctuation.section.property-list.end.bracket.curly',
-        settings: {
-          foreground: '#FF0000',
-        }
-      },
-      {
-        scope: 'punctuation.separator.dictionary.pair',
         settings: {
           foreground: '#FF0000',
         }
@@ -590,13 +637,7 @@ const base = () => {
         }
       },
       {
-        scope: 'punctuation.separator.key-value',
-        settings: {
-          foreground: '#a079fc',
-        }
-      },
-      {
-        scope: 'punctuation.definition.entity',
+        scope: 'punctuation.separator.comma',
         settings: {
           foreground: '#a079fc',
         }
@@ -608,13 +649,25 @@ const base = () => {
         }
       },
       {
-        scope: 'punctuation.section.embedded',
+        scope: 'punctuation.separator.dictionary.pair',
+        settings: {
+          foreground: '#FF0000',
+        }
+      },
+      {
+        scope: 'punctuation.separator.key-value',
         settings: {
           foreground: '#a079fc',
         }
       },
       {
         scope: 'punctuation.terminator.rule',
+        settings: {
+          foreground: '#FF0000',
+        }
+      },
+      {
+        scope: 'punctuation.terminator.statement',
         settings: {
           foreground: '#FF0000',
         }
@@ -644,6 +697,12 @@ const base = () => {
         }
       },
       {
+        scope: 'string.other.link',
+        settings: {
+          foreground: '#a079fc',
+        }
+      },
+      {
         scope: 'string.quoted.double',
         settings: {
           foreground: '#a079fc',
@@ -655,17 +714,17 @@ const base = () => {
           foreground: '#a079fc',
         },
       },
-      {
-        scope: 'string.other.link',
-        settings: {
-          foreground: '#a079fc',
-        }
-      },
       
 
       // SUPPORT
       {
         scope: 'support.class',
+        settings: {
+          foreground: '#FF0000',
+        },
+      },
+      {
+        scope: 'support.constant',
         settings: {
           foreground: '#FF0000',
         },
@@ -705,6 +764,12 @@ const base = () => {
         settings: {
           foreground: '#FF0000',
         },
+      },
+      {
+        scope: 'support.type.object.module',
+        settings: {
+          foreground: '#FF0000',
+        }
       },
       {
         scope: 'support.type.property-name',
