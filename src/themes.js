@@ -1,3 +1,6 @@
+// NOTES:
+// Use Developer: Inspect Editor Tokens and Scopes to see what things are named
+
 const theme = require('./theme');
 
 // Pre-defined monochrome themes.
