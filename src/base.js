@@ -3,7 +3,7 @@
  *
  * @return {*} Copy of the base color scheme.
  */
-const base = () => {
+ const base = () => {
   return {
     colors: {
       'activityBar.activeBorder': 0,
@@ -385,6 +385,12 @@ const base = () => {
           foreground: '#a079fc',
         },
       },
+      {
+        scope: 'keyword.type',
+        settings: {
+          foreground: '#02f7a2',
+        },
+      },
 
 
       // MARKUP
@@ -735,6 +741,18 @@ const base = () => {
         scope: 'storage',
         settings: {
           foreground: '#FF0000',
+        },
+      },
+      {
+        scope: 'storage.modifier',
+        settings: {
+          foreground: 0.5,
+        },
+      },
+      {
+        scope: 'storage.type',
+        settings: {
+          foreground: '#205a46',
         },
       },
       {

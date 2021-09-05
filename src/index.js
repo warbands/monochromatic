@@ -6,9 +6,9 @@ const themes = require('./themes');
  *
  * Generates the given theme and puts it's content into the theme file.
  *
- * @param {*} t Generated theme data.
+ * @param {*} theme Generated theme data.
  */
-const builder = (t) => fs.writeFile(file(t.name), JSON.stringify(t));
+const builder = (theme) => fs.writeFile(file(theme.name), JSON.stringify(theme));
 
 /**
  * Pipes the defined themes into builder.
@@ -23,9 +23,9 @@ const error = () => process.exit(1);
 /**
  * File name utility.
  *
- * @param {*} n File name.
+ * @param {*} filename File name.
  */
-const file = (n) => `./theme/${n}.json`;
+const file = (filename) => `./theme/${filename}.json`;
 
 // Create the output folder and build the defined themes.
 fs.mkdir('./theme', { recursive: true }).then(build).catch(error);

@@ -11,6 +11,11 @@ const chroma = require('chroma-js');
  * @return {*} Created theme.
  */
 const theme = ({ name, background, foreground, override, amplifier }) => {
+  // Debug
+  // console.log("Theme Name: " + name);
+  // console.log("Background: " + background);
+  // console.log("Foreground: " + foreground);
+  // console.log("Core theme amp: " + amplifier);
   return Object.assign(
     { name: name, type: type(background) },
     scheme({

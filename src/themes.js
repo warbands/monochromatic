@@ -9,13 +9,19 @@ const themes = [
     // This is the base one that we will build all others from
     name: 'monochromatic-dark',
     background: '#141414',
+    background: '#4c0101', // temp testing background to know system is working
     //background: '#41fb63',
     foreground: '#EBEBEB',
     //foreground: '#EBEBEB',
     
-    // This only works on single numeric values for the time being
-    // We could convert all colors to their R G B elements and mult
-    //amplifier: 0.5, 
+    
+    // Notes on amplifier usage:
+    //   Negative values work exceedingly well
+    //   Positive values work ok, but you will need pretty large numbers to really
+    //   see a big difference, at that rate, you are going to be better served
+    //   changing your color values directly. - Warbands
+    // amplifier: 0.5, 
+    // amplifier: 10.0,
     
     override: {
       color: {
@@ -43,41 +49,41 @@ const themes = [
       ],
     }
   }),
-  theme({
-    name: 'monochromatic-light',
-    background: '#EBEBEB',
-    foreground: '#101010',
-  }),
-  theme({
-    name: 'monochromatic-dark-subtle',
-    background: '#0A1219',
-    foreground: '#F1F5F9',
-  }),
-  theme({
-    name: 'monochromatic-light-subtle',
-    background: '#F1F5F9',
-    foreground: '#0A1219',
-  }),
-  theme({
-    name: 'monochromatic-dark-amplified',
-    background: '#000000',
-    foreground: '#FFFFFF',
-  }),
-  theme({
-    name: 'monochromatic-light-amplified',
-    background: '#FFFFFF',
-    foreground: '#000000',
-  }),
-  theme({
-    name: 'monochromatic-dark-cool-gray',
-    background: '#111827',
-    foreground: '#F9FAFB',
-  }),
-  theme({
-    name: 'monochromatic-light-cool-gray',
-    background: '#F9FAFB',
-    foreground: '#111827',
-  }),
+  // theme({
+  //   name: 'monochromatic-light',
+  //   background: '#EBEBEB',
+  //   foreground: '#101010',
+  // }),
+  // theme({
+  //   name: 'monochromatic-dark-subtle',
+  //   background: '#0A1219',
+  //   foreground: '#F1F5F9',
+  // }),
+  // theme({
+  //   name: 'monochromatic-light-subtle',
+  //   background: '#F1F5F9',
+  //   foreground: '#0A1219',
+  // }),
+  // theme({
+  //   name: 'monochromatic-dark-amplified',
+  //   background: '#000000',
+  //   foreground: '#FFFFFF',
+  // }),
+  // theme({
+  //   name: 'monochromatic-light-amplified',
+  //   background: '#FFFFFF',
+  //   foreground: '#000000',
+  // }),
+  // theme({
+  //   name: 'monochromatic-dark-cool-gray',
+  //   background: '#111827',
+  //   foreground: '#F9FAFB',
+  // }),
+  // theme({
+  //   name: 'monochromatic-light-cool-gray',
+  //   background: '#F9FAFB',
+  //   foreground: '#111827',
+  // }),
 ];
 
 module.exports = themes;

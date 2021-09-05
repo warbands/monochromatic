@@ -14,11 +14,18 @@ const exceptions = require('./exceptions');
  * @return {*} Created color scheme.
  */
 const scheme = ({ background, foreground, override, amplifier }) => {
+  // Debug
+  // console.log("Scheme Generation")
+  // console.log("\tBackground: " + background);
+  // console.log("\tForeground: " + foreground);
+  // console.log("\tAmplifier: " + amplifier);
+  
   // Construct the base values.
   const draft = Object.assign(
     {
       background: background,
       foreground: foreground,
+      amplifier: amplifier,
     },
     base()
   );
@@ -30,10 +37,10 @@ const scheme = ({ background, foreground, override, amplifier }) => {
   if (override != null) merge(draft, override);
 
   // Amplify the transparency multipliers.
-  if (amplifier != 1) transform(draft, test, (_, value) => amplify(value, amplifier));
+  if (amplifier != 1) transform(draft, test, (_, value) => amplify(value, amplifier), amplifier);
 
   // Apply color transformation.
-  transform(draft, test, (key, value) => colorize(key, value, background, foreground));
+  transform(draft, test, (key, value) => colorize(key, value, background, foreground), amplifier);
 
   // Return the generated scheme.
   return draft;
@@ -47,16 +54,19 @@ const scheme = ({ background, foreground, override, amplifier }) => {
  * @param {*} key Discarded key.
  * @param {*} value Value.
  */
-const test = (key, value) => typeof value === 'number';
-
+// const test = (key, value) => typeof value === 'number';
+const test = (key, value) => typeof value === 'number' || /^#?([0-9A-F]{3}){1,2}$/i.test(value);
+// /^#?([0-9A-F]{3}){1,2}$/i.test(object[key])
 /**
  * Modifies the transparency value by the given factor.
  *
  * @param {*} t Transparency value.
  * @param {*} a Amplifier value.
  */
-const amplify = (transparency, amplifier) => Math.min(Math.max(0, transparency * amplifier), 1);
-
+// const amplify = (transparency, amplifier) => Math.min(Math.max(0, transparency * amplifier), 1);
+function amplify(transparency, amplifier) {
+  return Math.min(Math.max(0, transparency * amplifier), 1);
+}
 /**
  * Colorization transformation.
  *
