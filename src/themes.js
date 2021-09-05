@@ -8,8 +8,8 @@ const themes = [
   theme({
     // This is the base one that we will build all others from
     name: 'monochromatic-dark',
-    background: '#141414',
-    background: '#4c0101', // temp testing background to know system is working
+    background: '#171717',
+    // background: '#4c0101', // temp testing background to know system is working
     //background: '#41fb63',
     foreground: '#EBEBEB',
     //foreground: '#EBEBEB',

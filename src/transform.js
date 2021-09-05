@@ -16,7 +16,7 @@ const transform = function (object, test, transfunc, amplifier) {
   // Debug
   // console.log("Transform Function");
   // console.log("Amplifier: " + amplifier);
-  let modifiedAmplifier = amplifier;
+  var modifiedAmplifier = amplifier;
   for (var key in object) {
     if (object[key] !== null && typeof object[key] === 'object') {
       // Debug
