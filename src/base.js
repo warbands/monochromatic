@@ -6,6 +6,9 @@
 
 // Keyed Variables
 const commentColor = '#3d3d3d';
+const braceBlockColor = '#808080';
+const punctuationColor = '#808080';
+
 
  const base = () => {
   return {
@@ -471,83 +474,89 @@ const commentColor = '#3d3d3d';
 
       // META
       {
+        scope: '	meta',
+        settings: {
+          foreground: braceBlockColor,
+        },
+      },
+      {
         scope: '	meta.attribute',
         settings: {
           foreground: '#a079fc',
         },
       },
-      {
-        scope: '	meta.brace.round',
-        settings: {
-          foreground: '#FF0000',
-        },
-      },
-      {
-        scope: 'meta.class',
-        settings: {
-          foreground: '#FF0000',
-        },
-      },
-      {
-        scope: 'meta.function-call.generic',
-        settings: {
-          foreground: '#a079fc',
-        },
-      },
-      {
-        scope: 'meta.function-call.arguments',
-        settings: {
-          foreground: '#41fb63',
-        },
-      },
-      {
-        scope: 'meta.link',
-        settings: {
-          foreground: '#FF0000',
-        },
-      },
-      {
-        scope: 'meta.object-literal',
-        settings: {
-          foreground: '#FF0000',
-        },
-      },
-      {
-        scope: 'meta.object-literal.key',
-        settings: {
-          foreground: '#FF0000',
-        },
-      },
-      {
-        scope: 'meta.object-literal.value',
-        settings: {
-          foreground: '#FF0000',
-        },
-      },
-      {
-        scope: 'meta.property-value',
-        settings: {
-          foreground: '#FF0000',
-        },
-      },
-      {
-        scope: 'meta.require',
-        settings: {
-          foreground: '#FF0000',
-        },
-      },
-      {
-        scope: 'meta.selector',
-        settings: {
-          foreground: '#FF0000',
-        },
-      },
-      {
-        scope: 'meta.separator',
-        settings: {
-          foreground: '#FF0000',
-        },
-      },
+      // {
+      //   scope: '	meta.brace.round',
+      //   settings: {
+      //     foreground: '#FF0000',
+      //   },
+      // },
+      // {
+      //   scope: 'meta.class',
+      //   settings: {
+      //     foreground: '#FF0000',
+      //   },
+      // },
+      // {
+      //   scope: 'meta.function-call.generic',
+      //   settings: {
+      //     foreground: '#a079fc',
+      //   },
+      // },
+      // {
+      //   scope: 'meta.function-call.arguments',
+      //   settings: {
+      //     foreground: '#41fb63',
+      //   },
+      // },
+      // {
+      //   scope: 'meta.link',
+      //   settings: {
+      //     foreground: '#FF0000',
+      //   },
+      // },
+      // {
+      //   scope: 'meta.object-literal',
+      //   settings: {
+      //     foreground: '#FF0000',
+      //   },
+      // },
+      // {
+      //   scope: 'meta.object-literal.key',
+      //   settings: {
+      //     foreground: '#FF0000',
+      //   },
+      // },
+      // {
+      //   scope: 'meta.object-literal.value',
+      //   settings: {
+      //     foreground: '#FF0000',
+      //   },
+      // },
+      // {
+      //   scope: 'meta.property-value',
+      //   settings: {
+      //     foreground: '#FF0000',
+      //   },
+      // },
+      // {
+      //   scope: 'meta.require',
+      //   settings: {
+      //     foreground: '#FF0000',
+      //   },
+      // },
+      // {
+      //   scope: 'meta.selector',
+      //   settings: {
+      //     foreground: '#FF0000',
+      //   },
+      // },
+      // {
+      //   scope: 'meta.separator',
+      //   settings: {
+      //     foreground: '#FF0000',
+      //   },
+      // },
       
 
       // NONE
@@ -563,19 +572,19 @@ const commentColor = '#3d3d3d';
       {
         scope: 'punctuation',
         settings: {
-          foreground: '#808080',
+          foreground: punctuationColor,
         }
       },
       {
         scope: 'punctuation.accessor',
         settings: {
-          foreground: '#808080',
+          foreground: punctuationColor,
         }
       },
       {
         scope: 'punctuation.curlybrace',
         settings: {
-          foreground: '#808080',
+          foreground: punctuationColor,
         }
       },
       // {
@@ -786,7 +795,7 @@ const commentColor = '#3d3d3d';
       {
         scope: 'storage.type.function',
         settings: {
-          foreground: '#FF0000',
+          foreground: '#949494',
         },
       },
 
@@ -826,65 +835,71 @@ const commentColor = '#3d3d3d';
 
       // SUPPORT
       {
-        scope: 'support.class',
+        scope: 'support',
         settings: {
-          foreground: '#FF0000',
+          foreground: '#949494',
         },
       },
-      {
-        scope: 'support.constant',
-        settings: {
-          foreground: '#FF0000',
-        },
-      },
-      {
-        scope: 'support.constant.property-value',
-        settings: {
-          foreground: '#FF0000',
-        },
-      },
-      {
-        scope: 'support.function',
-        settings: {
-          foreground: '#FF0000',
-        }
-      },
-      {
-        scope: 'support.function.any-method',
-        settings: {
-          foreground: '#FF0000',
-        }
-      },
-      {
-        scope: 'support.function.gradient',
-        settings: {
-          foreground: '#FF0000',
-        },
-      },
-      {
-        scope: 'support.function.misc',
-        settings: {
-          foreground: '#FF0000',
-        },
-      },
-      {
-        scope: 'support.function.url',
-        settings: {
-          foreground: '#FF0000',
-        },
-      },
-      {
-        scope: 'support.type.object.module',
-        settings: {
-          foreground: '#FF0000',
-        }
-      },
-      {
-        scope: 'support.type.property-name',
-        settings: {
-          foreground: '#FF0000',
-        }
-      },
+      // {
+      //   scope: 'support.class',
+      //   settings: {
+      //     foreground: '#FF0000',
+      //   },
+      // },
+      // {
+      //   scope: 'support.constant',
+      //   settings: {
+      //     foreground: '#FF0000',
+      //   },
+      // },
+      // {
+      //   scope: 'support.constant.property-value',
+      //   settings: {
+      //     foreground: '#FF0000',
+      //   },
+      // },
+      // {
+      //   scope: 'support.function',
+      //   settings: {
+      //     foreground: '#FF0000',
+      //   }
+      // },
+      // {
+      //   scope: 'support.function.any-method',
+      //   settings: {
+      //     foreground: '#FF0000',
+      //   }
+      // },
+      // {
+      //   scope: 'support.function.gradient',
+      //   settings: {
+      //     foreground: '#FF0000',
+      //   },
+      // },
+      // {
+      //   scope: 'support.function.misc',
+      //   settings: {
+      //     foreground: '#FF0000',
+      //   },
+      // },
+      // {
+      //   scope: 'support.function.url',
+      //   settings: {
+      //     foreground: '#FF0000',
+      //   },
+      // },
+      // {
+      //   scope: 'support.type.object.module',
+      //   settings: {
+      //     foreground: '#FF0000',
+      //   }
+      // },
+      // {
+      //   scope: 'support.type.property-name',
+      //   settings: {
+      //     foreground: '#FF0000',
+      //   }
+      // },
       
 
       // VARIABLE
